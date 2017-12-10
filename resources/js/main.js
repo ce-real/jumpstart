@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 var scroll = 0;
 
-$(window).scroll(function){
+$(window).scroll(function(){
   var scrollTop = $(this).scrollTop();
   if (scrollTop - scroll > 50){
     var navbarHeight =
@@ -26,5 +26,5 @@ $(window).scroll(function){
   }else{
     return false;
   }
-}
+})
 });
