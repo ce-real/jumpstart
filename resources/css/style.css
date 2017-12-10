@@ -139,6 +139,10 @@
   color: #399bd1;
 }
 
+#about h2, #about p{
+  width: 100%;
+}
+
 .container-fluid .text{
   display: flex;
   flex-direction: column;
@@ -167,17 +171,18 @@ footer .container-fluid{
   width: 42rem;
 }
 
-@media (min-width: @screen-sm-min){
+@media only screen and (max-width: 768px;){
   nav img{
     display: none;
   }
 }
 
-@media (min-width: @screen-sm-min){
+@media only screen and (min-width: 768px;){
   .jumbotron-bike .container-fluid h1{
     font-size: 7.1rem;
   }
-  .row{
+.row{
+    display: flex;
     flex-direction: column;
   }
 
